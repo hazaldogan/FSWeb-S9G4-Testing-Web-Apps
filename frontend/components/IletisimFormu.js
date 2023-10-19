@@ -73,7 +73,7 @@ const IletisimFormu = () => {
   return (
     <div className="App">
       <h1 data-testid="form-header">İletişim Formu</h1>
-      <form onSubmit={handleSubmit}>
+      <form data-testid="form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="ad">Ad*</label>
           <input
